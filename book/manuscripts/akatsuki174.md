@@ -38,9 +38,9 @@ Apple が提供している Bluetooth 通信ログ取得ツールです。macOS 
 
 設定アプリの「VPN とデバイス管理」からプロファイルをインストールしたら準備完了です。
 
-![VPN とデバイス管理](./images_akatsuki174/profile_install_1.jpg)
+![VPN とデバイス管理](./images_akatsuki174/profile_install_1.jpg){width=230}
 
-![プロファイルのインストール](./images_akatsuki174/profile_install_2.jpg)
+![プロファイルのインストール](./images_akatsuki174/profile_install_2.jpg){width=230}
 
 ちなみにこのプロファイル、一定期間が経過すると削除されてしまうようです。「あれ、この前までちゃんとログが取れてたのに、今日突然ログが全然流れてこなくなった」という事態に遭遇したら、このプロファイルが消えてないか確認してみてください。消えていたら再インストールしましょう。
 
