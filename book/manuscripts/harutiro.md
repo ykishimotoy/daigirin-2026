@@ -364,6 +364,7 @@ Region(uniqueId, id1, id2, id3)
 `RangeNotifier` はビーコンのスキャン結果を受け取るコールバックです。`addRangeNotifier` で登録し、`startRangingBeacons` でスキャンを開始します。Compose の `DisposableEffect` を使い、画面を離れたときに `stopRangingBeacons` と `removeRangeNotifier` で後片付けを行います。検出された各 `Beacon` オブジェクトからは UUID（`id1`）、Major（`id2`）、Minor（`id3`）、RSSI、推定距離（`distance`）を取得できます。
 
 # 作成したアプリの動作イメージ
+
 実際に作成したアプリを動かすと、送信側で「送信開始」ボタンを押すとビーコンの電波が発信され、受信側で「スキャン開始」ボタンを押すと周囲のビーコンが検出されてリスト表示されます。UUID、Major、Minor、RSSI、推定距離がリアルタイムで更新されます。
 送信側のアプリと受信側のアプリを別端末で動かすと、送信側のビーコンが受信側で検出される様子を確認できます。
 今回はバックグラウンドでの動作は実装していませんが、フォアグラウンドサービスを用いたり、Android Beacon Library の 機能を用いると、バックグラウンドでもビーコンの送受信が可能になります。
