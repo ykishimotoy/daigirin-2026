@@ -21,13 +21,9 @@ module.exports = {
     'emoto.md',
     'kishimoto01.md',
     'kishimoto02.md',
-<<<<<<< HEAD
-    'yuuuka.md',
-    'yuki.md',
-=======
     'yuuuka01.md',
     'yuuuka02.md',
->>>>>>> 0ecad80 (yuuuka02.mdを追加)
+    'yuki.md',
 
     // 著者紹介
     'authors.md',
