@@ -23,10 +23,7 @@ module.exports = {
     'kishimoto02.md',
     'yuuuka01.md',
     'yuuuka02.md',
-<<<<<<< HEAD
     'yuki.md',
-=======
->>>>>>> 0ecad80 (yuuuka02.mdを追加)
 
     // 著者紹介
     'authors.md',
