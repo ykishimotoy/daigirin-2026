@@ -20,12 +20,9 @@ module.exports = {
     'solana-anchor.md',
     'emoto.md',
     'kishimoto01.md',
-<<<<<<< HEAD
     'kishimoto02.md',
     'yuuuka.md',
-=======
     'yuki.md',
->>>>>>> e03ad6d (config を修正)
 
     // 著者紹介
     'authors.md',
